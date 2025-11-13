@@ -15,10 +15,12 @@ export default function Header() {
           <h1 className="name">
             Hello, I'm <span>Devashish.</span>
           </h1><h1>
-            A Web Developer
+            AI & Full-Stack Developer || Computer Vision Developer || Oncoming Researcher
           </h1>
           <p>
-          I believe organized efforts result from coordinated specialized knowledge in planned arrangements. I look forward to applying my MERN stack skills to contribute to these organized efforts.
+            <span>Having completed my Bachelor's degree in Computer Science and Engineering - I've applied my skills in development of multiple projects across Deep Learning and Full-stack Web Development. My work delivers solution to tasks carried out in simulated environments, healthcare applications, finance security, user interaction, and OCR processing.</span>
+            <span>Driven with enthusiasm for applying research-based knowledge and noval idea development - I’ve consistently met definite objectives - both in terms of technical outcomes and personal growth.</span>
+            <span>As a self-motivated achiever, I have authored multiple peer-reviewed conference papers, and book chapters throughout my journey.</span>
           </p>
           <Download />
         </div>
