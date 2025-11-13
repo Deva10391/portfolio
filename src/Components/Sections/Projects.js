@@ -31,7 +31,7 @@ export default function Projects() {
             </div>
             {projectList.length > 0 ? (<>
                 <p className="port-text">
-                    Here is some of my work that I've done in web development
+                    Here is some of my work that I've done in AI & web development
                 </p>
                 <div className="portfolios">
                     {projectList.map((project) => (<div key={project._id} className="portfolio-item">
@@ -41,15 +41,12 @@ export default function Projects() {
                         <div className="hover-items">
                             <h3>{project.title}</h3>
                             <div className="icons">
-                                <a href={project.gitHubLink} target='_blank' rel="noreferrer" className="icon">
+                                {project.gitHubLink && <a href={project.gitHubLink} target='_blank' rel="noreferrer" className="icon">
                                     <FontAwesomeIcon icon={faGithub} />
-                                </a>
-                                <a href={project.hostedLink} target='_blank' rel="noreferrer" className="icon">
+                                </a>}
+                                {project.hostedLink && <a href={project.hostedLink} target='_blank' rel="noreferrer" className="icon">
                                     <FontAwesomeIcon icon={faGoogle} />
-                                </a>
-                                <a href={project.youTubeVideoLink} target='_blank' rel="noreferrer" className="icon">
-                                    <FontAwesomeIcon icon={faYoutube} />
-                                </a>
+                                </a>}
                             </div>
                         </div>
                     </div>))}

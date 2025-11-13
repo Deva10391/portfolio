@@ -17,11 +17,11 @@ export default function Header() {
           </h1><h1>
             AI & Full-Stack Developer || Computer Vision Developer || Oncoming Researcher
           </h1>
-          <p>
-            <span>Having completed my Bachelor's degree in Computer Science and Engineering - I've applied my skills in development of multiple projects across Deep Learning and Full-stack Web Development. My work delivers solution to tasks carried out in simulated environments, healthcare applications, finance security, user interaction, and OCR processing.</span>
-            <span>Driven with enthusiasm for applying research-based knowledge and noval idea development - I’ve consistently met definite objectives - both in terms of technical outcomes and personal growth.</span>
-            <span>As a self-motivated achiever, I have authored multiple peer-reviewed conference papers, and book chapters throughout my journey.</span>
-          </p>
+          <div>
+            <p>Having completed my Bachelor's degree in Computer Science and Engineering - I've applied my skills in development of multiple projects across Deep Learning and Full-stack Web Development. My work delivers solution to tasks carried out in simulated environments, healthcare applications, finance security, user interaction, and OCR processing.</p>
+            <p>Driven with enthusiasm for applying research-based knowledge and noval idea development - I’ve consistently met definite objectives - both in terms of technical outcomes and personal growth.</p>
+            <p>As a self-motivated achiever, I have authored multiple peer-reviewed conference papers, and book chapters throughout my journey.</p>
+          </div>
           <Download />
         </div>
       </div>

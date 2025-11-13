@@ -28,7 +28,7 @@ export default function Skills() {
             {console.log(skillDetails)}
             <div className="main-title">
                 <h2>My <span>skills</span>
-                    <span className="bg-text">specialized knowledge</span></h2>
+                    <span className="bg-text">professional skillset</span></h2>
             </div>
             <div className="about-container">
                 <div className="left-about">

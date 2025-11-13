@@ -85,7 +85,7 @@ export default function Contact() {
                     <div className="left-contact">
                         <h4>Contact me here</h4>
                         <p>
-                            I have designed web applications using WebSockets & the MERN stack and I will be happy to collaborate with you in the future endeavours. Please consider the details in my resume as per your earliest convenience.
+                            I have designed web applications using WebSockets & the MERN stack and I will be happy to collaborate with you in the future endeavours.
                         </p>
                         <div className="contact-info">
                             {Object.entries(statisticsList).map(([key, val]) => (
