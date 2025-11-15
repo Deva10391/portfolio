@@ -39,7 +39,7 @@ export default function Contact() {
         console.log(templateParams);
 
         emailjs
-            .send('service_li3y01s', 'template_v3a8j0q', templateParams, 'LFj-cZVjIaRYlW8YW')
+            .send('service_thoy35u', 'template_ruv2s8d', templateParams, 'hjO2F1MOCMhEzHYXQ')
             .then(
                 (response) => {
                     setRes('Done');
